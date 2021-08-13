@@ -3,7 +3,7 @@ const assert = require("assert");
 const Ecdsa = require("../ellipticcurve/ecdsa");
 const PublicKey = require("../ellipticcurve/publicKey").PublicKey;
 const Signature = require("../ellipticcurve/signature").Signature;
-const File = require("../ellipticcurve/utils/file");
+const File = require("./file");
 
 describe("openSSL test", function() {
     describe("#testVerifySignature()", function() {
