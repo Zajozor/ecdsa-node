@@ -1,4 +1,5 @@
 const BigInt = require("big-integer");
+const Buffer = require("@craftzdog/react-native-buffer").Buffer;
 
 
 var hexFromBinary = function (data) {

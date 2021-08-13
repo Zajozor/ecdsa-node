@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/starkbank/ecdsa-node#readme",
   "dependencies": {
+    "@craftzdog/react-native-buffer": "^6.0.3",
     "big-integer": "^1.6.48",
     "js-sha256": "^0.9.0"
   },

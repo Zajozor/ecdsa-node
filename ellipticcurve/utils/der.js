@@ -2,6 +2,7 @@ const Base64 = require("./base");
 const BinaryAscii = require("./binary");
 const modulo = require("./integer").modulo;
 const BigInt = require("big-integer");
+const Buffer = require("@craftzdog/react-native-buffer").Buffer;
 
 
 const hexAt = "\x00";

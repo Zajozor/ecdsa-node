@@ -1,3 +1,5 @@
+const Buffer = require("@craftzdog/react-native-buffer").Buffer;
+
 exports.decode = function (string) {
     return Buffer.from(string, "base64").toString("binary");
 };
